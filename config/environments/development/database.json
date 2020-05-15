@@ -2,19 +2,17 @@
   "defaultConnection": "default",
   "connections": {
     "default": {
-      "connector": "strapi-mongoose",
+      "connector": "mongoose",
       "settings": {
-        "client": "mongo",
-        "uri": "${process.env.DATABASE_URI || ''}",
-        "host": "${process.env.DATABASE_HOST || '127.0.0.1'}",
-        "port": "${process.env.DATABASE_PORT || 27017}",
-        "database": "${process.env.DATABASE_NAME || 'Production'}",
-        "username": "${process.env.DATABASE_USERNAME || ''}",
-        "password": "${process.env.DATABASE_PASSWORD || ''}"
+        "database": "I-HealthAfrica-backened",
+        "host": "127.0.0.1",
+        "srv": false,
+        "port": 27017,
+        "username": "",
+        "password": ""
       },
       "options": {
-        "authenticationDatabase": "${process.env.DATABASE_AUTHENTICATION_DATABASE || ''}",
-        "ssl": true
+        "authenticationDatabase": ""
       }
     }
   }
