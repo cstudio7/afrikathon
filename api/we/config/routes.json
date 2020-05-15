@@ -2,48 +2,48 @@
   "routes": [
     {
       "method": "GET",
-      "path": "/health-specialists",
-      "handler": "health-specialist.find",
+      "path": "/we",
+      "handler": "we.find",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/health-specialists/count",
-      "handler": "health-specialist.count",
+      "path": "/we/count",
+      "handler": "we.count",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/health-specialists/:id",
-      "handler": "health-specialist.findOne",
+      "path": "/we/:id",
+      "handler": "we.findOne",
       "config": {
         "policies": []
       }
     },
     {
       "method": "POST",
-      "path": "/health-specialists",
-      "handler": "health-specialist.create",
+      "path": "/we",
+      "handler": "we.create",
       "config": {
         "policies": []
       }
     },
     {
       "method": "PUT",
-      "path": "/health-specialists/:id",
-      "handler": "health-specialist.update",
+      "path": "/we/:id",
+      "handler": "we.update",
       "config": {
         "policies": []
       }
     },
     {
       "method": "DELETE",
-      "path": "/health-specialists/:id",
-      "handler": "health-specialist.delete",
+      "path": "/we/:id",
+      "handler": "we.delete",
       "config": {
         "policies": []
       }

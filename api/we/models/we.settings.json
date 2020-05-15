@@ -1,18 +1,24 @@
 {
   "kind": "collectionType",
-  "collectionName": "articles",
+  "collectionName": "we",
   "info": {
-    "name": "article"
+    "name": "we"
   },
   "options": {
     "increments": true,
     "timestamps": true
   },
   "attributes": {
-    "author": {
+    "eee": {
       "type": "string"
     },
-    "article": {
+    "ddd": {
+      "type": "string"
+    },
+    "yes": {
+      "type": "string"
+    },
+    "we": {
       "type": "string"
     }
   }

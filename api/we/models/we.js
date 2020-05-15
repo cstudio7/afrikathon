@@ -1,7 +1,7 @@
 'use strict';
 
 /**
- * Lifecycle callbacks for the `care-givers` model.
+ * Lifecycle callbacks for the `we` model.
  */
 
 module.exports = {

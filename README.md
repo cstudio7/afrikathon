@@ -1,2 +1,3 @@
-# afrikathon
-backend code for I-healthAfrica
+# Strapi application
+
+A quick description of your strapi application

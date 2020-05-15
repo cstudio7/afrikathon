@@ -1,5 +1,5 @@
 {
-  "name": "i-health-africa-backened",
+  "name": "sqaf-backend",
   "private": true,
   "version": "0.1.0",
   "description": "A Strapi application",
@@ -12,21 +12,24 @@
   "devDependencies": {},
   "dependencies": {
     "dotenv": "^8.2.0",
-    "strapi": "3.0.0-beta.20.3",
-    "strapi-admin": "3.0.0-beta.20.3",
-    "strapi-connector-mongoose": "3.0.0-beta.20.3",
-    "strapi-plugin-content-manager": "3.0.0-beta.20.3",
-    "strapi-plugin-content-type-builder": "3.0.0-beta.20.3",
-    "strapi-plugin-email": "3.0.0-beta.20.3",
-    "strapi-plugin-upload": "3.0.0-beta.20.3",
-    "strapi-plugin-users-permissions": "3.0.0-beta.20.3",
-    "strapi-utils": "3.0.0-beta.20.3"
+    "strapi": "3.0.0-beta.20",
+    "strapi-admin": "3.0.0-beta.20",
+    "strapi-connector-mongoose": "3.0.0-beta.20",
+    "strapi-plugin-content-manager": "3.0.0-beta.20",
+    "strapi-plugin-content-type-builder": "3.0.0-beta.20",
+    "strapi-plugin-documentation": "^3.0.0-beta.20.2",
+    "strapi-plugin-email": "3.0.0-beta.20",
+    "strapi-plugin-upload": "3.0.0-beta.20",
+    "strapi-plugin-users-permissions": "3.0.0-beta.20",
+    "strapi-provider-email-sendgrid": "^3.0.0-beta.20.2",
+    "strapi-provider-upload-aws-s3": "^3.0.0-beta.20.2",
+    "strapi-utils": "3.0.0-beta.20"
   },
   "author": {
-    "name": "A Strapi developer"
+    "name": "Victor Godwin"
   },
   "strapi": {
-    "uuid": "de2f23e9-36b5-4611-9b82-0b4adf0c84f3"
+    "uuid": "3d7c962b-fd1d-4a74-b95f-c846c387b698"
   },
   "engines": {
     "node": ">=10.0.0",
